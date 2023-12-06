@@ -10,6 +10,7 @@
 		516E711A2B207517009BF536 /* CedarvilleCursive-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 516E71192B207517009BF536 /* CedarvilleCursive-Regular.ttf */; };
 		516E71212B207E6A009BF536 /* DeliciousHandrawn-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 516E71202B207E6A009BF536 /* DeliciousHandrawn-Regular.ttf */; };
 		516E71232B20825E009BF536 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516E71222B20825E009BF536 /* HeaderView.swift */; };
+		516E71252B20D9CA009BF536 /* .gitignore.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 516E71242B20D9CA009BF536 /* .gitignore.rtf */; };
 		51827B9B2B19EB8500C3E997 /* NightNotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51827B9A2B19EB8500C3E997 /* NightNotesApp.swift */; };
 		51827B9D2B19EB8500C3E997 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51827B9C2B19EB8500C3E997 /* MainView.swift */; };
 		51827BA12B19EB8800C3E997 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51827BA02B19EB8800C3E997 /* Assets.xcassets */; };
@@ -68,6 +69,7 @@
 		516E71192B207517009BF536 /* CedarvilleCursive-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CedarvilleCursive-Regular.ttf"; sourceTree = "<group>"; };
 		516E71202B207E6A009BF536 /* DeliciousHandrawn-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DeliciousHandrawn-Regular.ttf"; sourceTree = "<group>"; };
 		516E71222B20825E009BF536 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HeaderView.swift; path = NightNotes/Views/HeaderView.swift; sourceTree = SOURCE_ROOT; };
+		516E71242B20D9CA009BF536 /* .gitignore.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = .gitignore.rtf; sourceTree = "<group>"; };
 		51827B972B19EB8500C3E997 /* NightNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NightNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51827B9A2B19EB8500C3E997 /* NightNotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightNotesApp.swift; sourceTree = "<group>"; };
 		51827B9C2B19EB8500C3E997 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -162,6 +164,7 @@
 		51827B992B19EB8500C3E997 /* NightNotes */ = {
 			isa = PBXGroup;
 			children = (
+				516E71242B20D9CA009BF536 /* .gitignore.rtf */,
 				516E71182B20733F009BF536 /* Fonts */,
 				51827BA22B19EB8800C3E997 /* Preview Content */,
 				51827BED2B1CA56000C3E997 /* Views */,
@@ -327,6 +330,7 @@
 				51827BA42B19EB8800C3E997 /* Preview Assets.xcassets in Resources */,
 				51827BA12B19EB8800C3E997 /* Assets.xcassets in Resources */,
 				51827BEC2B1CA3E400C3E997 /* GoogleService-Info.plist in Resources */,
+				516E71252B20D9CA009BF536 /* .gitignore.rtf in Resources */,
 				516E71212B207E6A009BF536 /* DeliciousHandrawn-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
