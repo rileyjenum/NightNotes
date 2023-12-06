@@ -8,12 +8,17 @@
 import SwiftUI
 import SwiftData
 
-struct ContentView: View {
+struct MainView: View {
     var body: some View {
+        // NavigationView instead of Vstack allows to show and dismiss registration view (if needed)
+        NavigationView {
+            LoginView()
         }
     }
+}
 
-#Preview {
-    ContentView()
-        .modelContainer(for: Item.self, inMemory: true)
+struct MainView_Previews: PreviewProvider {
+    static var previews: some View {
+        MainView()
+    }
 }
