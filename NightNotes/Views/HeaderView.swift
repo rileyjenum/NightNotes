@@ -8,23 +8,28 @@
 import SwiftUI
 
 struct HeaderView: View {
+    let title: String
+    let subtitle: String
+    
     var body: some View {
         VStack {
-            Text("NightNotes")
+            Text(title)
             // Font names have specific names that are not just the name you gave when uploading
                 .font(.custom("Delicious Handrawn", size: 70))
-                .foregroundColor(/*@START_MENU_TOKEN@*/Color.white/*@END_MENU_TOKEN@*/)
+                .foregroundColor(Color.white)
                 .multilineTextAlignment(.center)
                 .bold()
-            Text("Track your sleep")
+            Text(subtitle)
                 .font(.custom("Delicious Handrawn", size: 25))
                 .foregroundColor(Color.white)
                 .multilineTextAlignment(.center)
         }
-
     }
 }
 
-#Preview {
-    HeaderView()
+struct HeaderView_Previews: PreviewProvider {
+    static var previews: some View {
+        HeaderView(title: "Title",
+                   subtitle: "Subtitle")
+    }
 }

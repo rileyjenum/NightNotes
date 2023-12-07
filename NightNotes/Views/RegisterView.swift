@@ -9,10 +9,27 @@ import SwiftUI
 
 struct RegisterView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            Image("LoginInspo4")
+                .resizable(resizingMode: .stretch)
+                .padding(.all, -62.0)
+            VStack {
+                
+                HeaderView(title: "Register",
+                           subtitle: "Start tracking now")
+                .padding(.top, 62.0)
+                
+                Spacer()
+                    
+                    
+                
+            }
+        }
     }
 }
 
-#Preview {
-    RegisterView()
+struct RegisterView_Previews: PreviewProvider {
+    static var previews: some View {
+        RegisterView()
+    }
 }

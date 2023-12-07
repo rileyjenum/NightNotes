@@ -11,9 +11,7 @@ import SwiftData
 struct MainView: View {
     var body: some View {
         // NavigationView instead of Vstack allows to show and dismiss registration view (if needed)
-        NavigationView {
             LoginView()
-        }
     }
 }
 
