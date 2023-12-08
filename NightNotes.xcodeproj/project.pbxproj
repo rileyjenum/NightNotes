@@ -11,6 +11,8 @@
 		516E71212B207E6A009BF536 /* DeliciousHandrawn-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 516E71202B207E6A009BF536 /* DeliciousHandrawn-Regular.ttf */; };
 		516E71232B20825E009BF536 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516E71222B20825E009BF536 /* HeaderView.swift */; };
 		516E71252B20D9CA009BF536 /* .gitignore.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 516E71242B20D9CA009BF536 /* .gitignore.rtf */; };
+		516E712B2B231BB7009BF536 /* NNButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516E712A2B231BB7009BF536 /* NNButton.swift */; };
+		516E712D2B235D0D009BF536 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516E712C2B235D0D009BF536 /* RegisterView.swift */; };
 		51827B9B2B19EB8500C3E997 /* NightNotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51827B9A2B19EB8500C3E997 /* NightNotesApp.swift */; };
 		51827B9D2B19EB8500C3E997 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51827B9C2B19EB8500C3E997 /* MainView.swift */; };
 		51827BA12B19EB8800C3E997 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51827BA02B19EB8800C3E997 /* Assets.xcassets */; };
@@ -48,7 +50,6 @@
 		51827BE82B1CA31800C3E997 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 51827BE72B1CA31800C3E997 /* FirebaseStorage */; };
 		51827BEA2B1CA31800C3E997 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 51827BE92B1CA31800C3E997 /* FirebaseStorageCombine-Community */; };
 		51827BEC2B1CA3E400C3E997 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51827BEB2B1CA3E400C3E997 /* GoogleService-Info.plist */; };
-		51827BF22B1DCFD300C3E997 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51827BF12B1DCFD300C3E997 /* RegisterView.swift */; };
 		51827BF42B1DCFE200C3E997 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51827BF32B1DCFE200C3E997 /* LoginView.swift */; };
 		51827BF62B1DD00400C3E997 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51827BF52B1DD00400C3E997 /* PageView.swift */; };
 		51827BF82B1DD02700C3E997 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51827BF72B1DD02700C3E997 /* DashboardView.swift */; };
@@ -70,13 +71,14 @@
 		516E71202B207E6A009BF536 /* DeliciousHandrawn-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DeliciousHandrawn-Regular.ttf"; sourceTree = "<group>"; };
 		516E71222B20825E009BF536 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HeaderView.swift; path = NightNotes/Views/HeaderView.swift; sourceTree = SOURCE_ROOT; };
 		516E71242B20D9CA009BF536 /* .gitignore.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = .gitignore.rtf; sourceTree = "<group>"; };
+		516E712A2B231BB7009BF536 /* NNButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NNButton.swift; sourceTree = "<group>"; };
+		516E712C2B235D0D009BF536 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		51827B972B19EB8500C3E997 /* NightNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NightNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51827B9A2B19EB8500C3E997 /* NightNotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightNotesApp.swift; sourceTree = "<group>"; };
 		51827B9C2B19EB8500C3E997 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		51827BA02B19EB8800C3E997 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51827BA32B19EB8800C3E997 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		51827BEB2B1CA3E400C3E997 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		51827BF12B1DCFD300C3E997 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		51827BF32B1DCFE200C3E997 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		51827BF52B1DD00400C3E997 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 		51827BF72B1DD02700C3E997 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
@@ -187,13 +189,14 @@
 			isa = PBXGroup;
 			children = (
 				51827B9C2B19EB8500C3E997 /* MainView.swift */,
-				51827BF12B1DCFD300C3E997 /* RegisterView.swift */,
 				51827BF32B1DCFE200C3E997 /* LoginView.swift */,
 				51827BF52B1DD00400C3E997 /* PageView.swift */,
 				51827BF72B1DD02700C3E997 /* DashboardView.swift */,
 				51827C072B1DDA0C00C3E997 /* NewEntryView.swift */,
 				51827C0B2B1DDA4100C3E997 /* ProfileView.swift */,
 				516E71222B20825E009BF536 /* HeaderView.swift */,
+				516E712A2B231BB7009BF536 /* NNButton.swift */,
+				516E712C2B235D0D009BF536 /* RegisterView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -347,13 +350,14 @@
 				51827C022B1DD98600C3E997 /* LoginViewViewModel.swift in Sources */,
 				51827C0A2B1DDA1F00C3E997 /* NewEntryViewViewModel.swift in Sources */,
 				51827C002B1DD97000C3E997 /* RegisterViewViewModel.swift in Sources */,
+				516E712B2B231BB7009BF536 /* NNButton.swift in Sources */,
 				51827C042B1DD99A00C3E997 /* PageViewViewModel.swift in Sources */,
 				51827BF62B1DD00400C3E997 /* PageView.swift in Sources */,
+				516E712D2B235D0D009BF536 /* RegisterView.swift in Sources */,
 				51827BF82B1DD02700C3E997 /* DashboardView.swift in Sources */,
 				51827BFE2B1DD95F00C3E997 /* MainViewViewModel.swift in Sources */,
 				51827C0C2B1DDA4100C3E997 /* ProfileView.swift in Sources */,
 				51827BFC2B1DD10E00C3E997 /* Page.swift in Sources */,
-				51827BF22B1DCFD300C3E997 /* RegisterView.swift in Sources */,
 				51827C062B1DD9AE00C3E997 /* DashboardViewViewModel.swift in Sources */,
 				51827B9D2B19EB8500C3E997 /* MainView.swift in Sources */,
 				51827BF42B1DCFE200C3E997 /* LoginView.swift in Sources */,

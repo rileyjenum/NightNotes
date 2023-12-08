@@ -5,14 +5,16 @@
 //  Created by Riley Jenum on 12/8/23.
 //
 
-import SwiftUI
+//import SwiftUI
 
-struct RegisterView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
+//struct RegisterView: View {
+  //  var body: some View {
+    //    Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+    //}
+//}
 
-#Preview {
-    RegisterView()
-}
+//struct RegisterView_Previews: PreviewProvider {
+  //  static var previews: some View {
+    //    RegisterView()
+    //}
+//}
