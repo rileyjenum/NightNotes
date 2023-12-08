@@ -8,19 +8,21 @@
 import SwiftUI
 
 struct HeaderView: View {
+    //properties to allow for title and subtitle changes in a generic header
     let title: String
     let subtitle: String
+    let font: String
     
     var body: some View {
         VStack {
             Text(title)
-            // Font names have specific names that are not just the name you gave when uploading
-                .font(.custom("Delicious Handrawn", size: 70))
+            // Reminder: Font names have specific names that are not just the name you gave when uploading
+                .font(.custom(font, size: 90))
                 .foregroundColor(Color.white)
                 .multilineTextAlignment(.center)
                 .bold()
             Text(subtitle)
-                .font(.custom("Delicious Handrawn", size: 25))
+                .font(.custom(font, size: 35))
                 .foregroundColor(Color.white)
                 .multilineTextAlignment(.center)
         }
@@ -30,6 +32,7 @@ struct HeaderView: View {
 struct HeaderView_Previews: PreviewProvider {
     static var previews: some View {
         HeaderView(title: "Title",
-                   subtitle: "Subtitle")
+                   subtitle: "Subtitle",
+                   font: "Delicious Handrawn")
     }
 }

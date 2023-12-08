@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct NNButton: View {
+    // properties to allow for changes in name of button, background/foreground color and action
     let title: String
     let background: Color
     let foreground: Color
@@ -15,7 +16,6 @@ struct NNButton: View {
     
     var body: some View {
         Button {
-            //action
             action()
         } label: {
             ZStack {
@@ -28,6 +28,8 @@ struct NNButton: View {
         }
     }
 }
+
+
 
 struct NNButton_Previews: PreviewProvider {
     static var previews: some View {
